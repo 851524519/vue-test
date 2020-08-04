@@ -21,6 +21,11 @@ Vue.use(VueRouter)
       name: 'home',
       component: Home
     },
+    {
+      path: '/test',
+      name: 'test',
+      component: () => import('@/views/init/easyInitPage')
+    },
     // 我的路由
     {
       path: '/mine',

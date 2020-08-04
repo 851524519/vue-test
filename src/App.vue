@@ -2,7 +2,7 @@
   <div id="app">
     <router-view />
     <div id="loading">
-      <img src="./assets/commomImg/loaddingShow.png" class="animation" />
+      <img src="./assets/loading/loaddingShow.png" class="animation" />
     </div>
   </div>
 </template>
